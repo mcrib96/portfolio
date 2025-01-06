@@ -5,7 +5,12 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "nuxt-mdi"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode",
+    "@nuxt/content",
+    "nuxt-mdi",
+  ],
   colorMode: {
     classSuffix: "",
   },
