@@ -8,6 +8,12 @@
         <NuxtLink to="/about" class="link">About</NuxtLink>
       </li>
       <li>
+        <NuxtLink to="/resume" class="link">Resume</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/about-personal" class="link">Getting Personal</NuxtLink>
+      </li>
+      <li>
         <NuxtLink to="/blog" class="link">Blog</NuxtLink>
       </li>
       <li>
