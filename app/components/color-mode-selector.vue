@@ -7,7 +7,7 @@
       @click="updateColorMode()"
       @mouseenter="showNextModeLabel = true"
       @mouseleave="showNextModeLabel = false"
-      class="hover:bg-gray-100 dark:bg-gray-600 px-2 py-1 text-gray-500"
+      class="hover:bg-gray-100 dark:bg-gray-600 px-2 py-1 text-gray-500 text-4xl md:text-base"
     >
       <MdiIcon :icon="modeIcons[nextMode]" size="1.5em" />
     </button>
