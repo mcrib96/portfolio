@@ -11,13 +11,9 @@
             :to="post._path"
             class="column hover:bg-gray-100 dark:hover:bg-gray-800"
           >
-            <div
-              :class="{
-                'text-white dark:text-gray-900': !post.displayYear,
-                'text-gray-400 dark:text-gray-500': post.displayYear,
-              }"
-            >
-              {{ post.year }}
+            <div>
+              <span v-if="post.displayYear"> {{ post.year }} </span
+              ><span v-else> &nbsp;&nbsp;&nbsp;&nbsp; </span>
             </div>
             <div>
               {{ post.title }}
